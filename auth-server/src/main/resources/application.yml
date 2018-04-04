@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+#Mongo connection information !
+# mongodb://[account]:[password]@[host]:[port]
+spring:
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+  mongodb:
+    uri: mongodb://root:j1d1sec.f0rt@198.9.9.52:27017
+    database: admin
